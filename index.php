@@ -1,13 +1,13 @@
 <?php
  // Tutorial: http://blogjak.com/?A7WG
-// 482697935644832514 Coklat
-// 8328682700413450881 Danatunai
-// 8071207005090667471 Bloglaundry
-// 5156676174768913851 PPH
-// 4252636256666591002 Parfumlaundry
+// 482697935644832xxx Coklat
+// 8328682700413450xxx Danatunai
+// 8071207005090667xxx Bloglaundry
+// 5156676174768913xxx PPH
+// 4252636256666591xxx Parfumlaundry
 
 
-$blogID='5156676174768913851';
+$blogID='5156676174768913xxx';
 $requestURL="http://www.blogger.com/feeds/{$blogID}/posts/default";
 $xml=simplexml_load_file($requestURL);
 ?>
